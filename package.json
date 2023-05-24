@@ -1,0 +1,11 @@
+{
+  "name": "la-bit-machina",
+  "version": "0.0.1",
+  "description": "Beat machine using Howler.js, and Roland 808 samples.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nerdbord",
+  "license": "ISC"
+}
