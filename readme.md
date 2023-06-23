@@ -14,6 +14,7 @@ Beat machine using Howler.js, and Roland 808 samples.
 - Gain experience in managing audio assets and loading audio files asynchronously
 
 ### 💻 Scope
+
 - User should be able to create beats by putting sounds on the grid
 - User should be able to preview sounds before putting them on the grid
 - Each square on grid represents one note (1/16) of 4/4 meter phrase
