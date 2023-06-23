@@ -3,29 +3,62 @@
   min-width: 1440px;
   height: 100vh;
   background: #f9f8fa;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1180px;
+  padding-top: 60px;
+  margin: 0 auto 40px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: -0.05em;
+  text-align: left;
+}
+
+.play {
+  width: 138px;
+  height: 62px;
+  padding: 20px 30px 20px 40px;
+  align-items: center;
+  border-radius: 10px;
+  background: #FDFCFD;
+
+  box-shadow: 5px 5px 13px 0 rgba(0, 0, 0, 0.05), -2px -2px 13px 0 rgba(255, 255, 255, 0.80);
 }
 
 .sound-row {
   display: flex;
   flex-direction: row;
+  width: 1180px;
+
+  margin-inline: auto;
 }
 
 .sound-button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 160px;
+  min-width: 160px;
   height: 63px;
   padding: 20px 15px 20px 20px;
   margin: 10px 20px 10px 0;
   text-align: left;
   text-transform: uppercase;
-  box-shadow: 5px 5px 13px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 5px 5px 13px 0 rgba(0, 0, 0, 0.05), -2px -2px 13px 0 rgba(255, 255, 255, 0.80);
 }
 
 .pad {
-  width: 50px;
+  min-width: 50px;
   height: 62px;
-  margin-left: 10px;
-  box-shadow: 5px 5px 13px 0 rgba(0, 0, 0, 0.075);
+  margin: 10px 0 0 10px;
+  box-shadow: 5px 5px 13px 0 rgba(0, 0, 0, 0.05), -2px -2px 13px 0 rgba(255, 255, 255, 0.80);
 }

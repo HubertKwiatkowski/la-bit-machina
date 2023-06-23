@@ -1,5 +1,5 @@
 .idea
 .vsc
-public
+public/*.aif
 dist
 node_modules

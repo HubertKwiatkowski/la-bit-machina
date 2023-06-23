@@ -1,0 +1,36 @@
+.bpm-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+}
+
+.controls {
+  padding-inline: 20px;
+}
+
+.controls-btn {
+  cursor: pointer;
+}
+
+.bpm-counter {
+  height: 100%;
+  color: #BFBEC1;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.bpm-counter p {
+  line-height: 60px;
+}
+
+.bpm-value {
+  color: #18121E;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
